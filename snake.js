@@ -212,6 +212,7 @@ function highScore(playerScore){
         if(num1 > num2){
             localStorage.setItem('score2', num1)
             localStorage.setItem('name2', localStorage.getItem('name1'))
+            name2.innerHTML = p1;
         }
         num1 = playerScore;
         setHighScore(playerName, playerScore, 'score1', 'name1')
@@ -224,6 +225,7 @@ function highScore(playerScore){
         if(num2 > num3){
             localStorage.setItem('score3', num2)
             localStorage.setItem('name3', localStorage.getItem('name2'))
+            name3.innerHTML = p2;
         }
         num2 = playerScore;
         setHighScore(playerName, playerScore, 'score2', 'name2')
@@ -235,6 +237,7 @@ function highScore(playerScore){
         if(num3 > num4){
             localStorage.setItem('score4', num3)
             localStorage.setItem('name4', localStorage.getItem('name3'))
+            name4.innerHTML = p3;
         }
         num3 = playerScore;
         setHighScore(playerName, playerScore, 'score3', 'name3')
@@ -246,6 +249,7 @@ function highScore(playerScore){
         if(num4 > num5){
             localStorage.setItem('score5', num4)
             localStorage.setItem('name5', localStorage.getItem('name4'))
+            name5.innerHTML = p4;
         }
         num4 = playerScore;
         setHighScore(playerName, playerScore, 'score4', 'name4')

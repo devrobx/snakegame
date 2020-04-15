@@ -54,6 +54,12 @@ num3 =  parseInt(localStorage.getItem('score3'))
 num4 =  parseInt(localStorage.getItem('score4'))
 num5 =  parseInt(localStorage.getItem('score5'))
 
+//local values for names
+let p1 = localStorage.getItem('name1')
+let p2 = localStorage.getItem('name2')
+let p3 = localStorage.getItem('name3')
+let p4 = localStorage.getItem('name4')
+let p5 = localStorage.getItem('name5')
 
 
 
