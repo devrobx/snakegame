@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="shortcut icon" href="img/snake.png">
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div class="container">
+      
+      
+        <canvas id="snake" width="608" height="608"></canvas>
+
+        <div>
+            <h3>How to Play</h3>
+            <p>Controls: Left, Right , Up, Down arrows</p>
+            <p>Rules: Eat as many fruits as you can without colliding with the wall or your own body!</p>
+            <div style="text-align: center;">
+                <button id="restart">Restart</button>
+            </div>
+           
+            <div class="highScore">
+                <table>
+                    <h3>High Scores</h3>
+                    <tr>
+                       <td>NAME</td>
+                       <td>HIGH SCORE</td>
+                    </tr>
+                    <tr>
+                        <td id="name1">Rob</td>
+                        <td id="score1"></td>
+                     </tr>
+                     <tr>
+                        <td id="name2"></td>
+                        <td id="score2"></td>
+                     </tr>
+                     <tr>
+                        <td id="name3"></td>
+                        <td id="score3"></td>
+                     </tr>
+                     <tr>
+                        <td id="name4"></td>
+                        <td id="score4"></td>
+                     </tr>
+                     <tr>
+                        <td id="name5"></td>
+                        <td id="score5"></td>
+                     </tr>
+                </table>
+    
+            </div>
+         
+        </div>
+        
+
+    </div>
+   
+    <script src="storage.js"></script>
+    <script src="snake.js"></script>
+</body>
+</html>
